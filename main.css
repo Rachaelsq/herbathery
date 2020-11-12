@@ -6,3 +6,14 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
+body,
+html {
+  background-color: #b38a58;
+  font-family: "Raleway", sans-serif;
+}
+
+.change {
+  color: cornflowerblue;
+  font-size: 80px;
+}
