@@ -4,16 +4,32 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 body,
 html {
   background-color: #b38a58;
-  font-family: "Raleway", sans-serif;
 }
 
-.change {
-  color: cornflowerblue;
-  font-size: 80px;
+header {
+  /* font-family: 'Nerko One', cursive; */
+  margin-bottom: 40px;
+}
+
+button {
+  background-color: rgba(41, 41, 41, 0.5);
+  color: white;
+  border-radius: 5px;
+  padding: 10px, 10px, 10px, 10px;
+  font-size: 50px;
+  transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+button:hover {
+  border: 2px solid;
+  border-color: rgb(19, 19, 19);
+  color: white;
+  box-shadow: 0 5px 5px -4px #000000;
+  transform: translateY(-25px);
 }
