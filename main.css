@@ -22,7 +22,7 @@ button {
   color: white;
   border-radius: 5px;
   padding: 10px, 10px, 10px, 10px;
-  font-size: 50px;
+  font-size: 20px;
   transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
 }
 
@@ -31,5 +31,6 @@ button:hover {
   border-color: rgb(19, 19, 19);
   color: white;
   box-shadow: 0 5px 5px -4px #000000;
-  transform: translateY(-25px);
+  transform: translateY(-11px);
+  cursor: pointer;
 }
